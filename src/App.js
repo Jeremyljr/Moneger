@@ -1,10 +1,19 @@
 import './App.css';
+import Navbar from './containers/homePage/Navbar';
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import HeroSection from './containers/homePage/HeroSection';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <>
+      <Router>
+        <Navbar />
+        <HeroSection />
+        <Switch>
+          <Route path='/' exact />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
