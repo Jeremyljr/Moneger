@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '../../components/Buttons'
+import './HeroSection.css';
 
 function HeroSection() {
     return (
@@ -12,7 +13,7 @@ function HeroSection() {
                 Keep track of your shared expenses and balances with housemates, trips, groups, friends, and family.
                 </p>
                 <div className="heroBtn">
-                    <Button className='btn' buttonStyle='btnOutline'>
+                    <Button className='btn' buttonStyle='btnPrimary'>
                         SIGN UP
                     </Button>
                 </div>

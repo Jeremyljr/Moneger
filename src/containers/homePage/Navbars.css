@@ -50,7 +50,7 @@
   }
   
   .navLinks {
-    color: #000;
+    color: var(--text);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -78,6 +78,7 @@
   }
 
   .title{
+    color: var(--text);
     font-size: 28px;
   }
   

@@ -1,0 +1,22 @@
+.heroContainer{
+    margin-top: 20vh;
+}
+
+.heroLeft{
+    color: var(--text);
+    max-width: 590px;
+    height: 300px;
+    /* background-color: turquoise; */
+    margin-left: 14vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heroLeftTitle{
+    font-size: 64px;
+}
+
+.heroLeftParagraph{
+    font-size: 16px;
+}
