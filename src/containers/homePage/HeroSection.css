@@ -2,6 +2,7 @@
     /* margin-top: 20vh; */
     display: flex;
     align-items: center;
+    animation: transitionIn 1s; 
 }
 
 .heroLeft{
@@ -25,4 +26,27 @@
 
 canvas {
     height: 800px;
+    animation: transitionInCan 2s; 
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes transitionInCan {
+    from {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
