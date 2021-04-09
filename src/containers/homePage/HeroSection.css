@@ -1,11 +1,13 @@
 .heroContainer{
-    margin-top: 20vh;
+    /* margin-top: 20vh; */
+    display: flex;
+    align-items: center;
 }
 
 .heroLeft{
     color: var(--text);
     max-width: 590px;
-    height: 300px;
+    height: 400px;
     /* background-color: turquoise; */
     margin-left: 16vw;
     display: flex;
@@ -19,4 +21,8 @@
 
 .heroLeftParagraph{
     font-size: 16px;
+}
+
+canvas {
+    height: 800px;
 }
