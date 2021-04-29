@@ -3,5 +3,17 @@
     margin: 0;
     padding: 0;
     font-family: 'Work Sans', sans-serif;
-    background-color: #324552;
+    overflow-x: hidden;
   }
+
+body {
+  background-color: #324552;
+}
+
+:root {
+  --primary: #31AAB7;
+  --text: #fff;
+  --secondary: #000;
+  --hover: #129AA6;
+  --margins: 2vw; 
+}

@@ -64,7 +64,7 @@ function HeroSection() {
                         <shadowMaterial attach='material' opacity={0.05}/>
                     </mesh>
                         <Box position={[1, 0, -2]} args={[1, 1, 0.2, 32]} />
-                        <Box position={[-3, 1, -5]} args={[1, 1, 0.2, 32]} />
+                        <Box position={[-2, 1, -5]} args={[1, 1, 0.2, 32]} />
                         <Box position={[5, 0, -2]} args={[1, 1, 0.2, 32]} />                    
                         <Box position={[0, 3, -5]} args={[1, 1, 0.2, 32]} />                    
                         <Box position={[-1, -2, -1.5]} args={[1, 1, 0.2, 32]} />                    

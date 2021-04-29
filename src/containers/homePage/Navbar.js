@@ -39,6 +39,8 @@ function Navbar() {
                         className="img"
                         /> */}
                     <div className="title" onClick={closeMobileMenu}>
+                        <img className="sparrow" src='https://spshurl.herokuapp.com/static/logo/Sparrow%20%28Logo%2C%20Dark%2C%20Trans%29.png' alt='logo' />
+                        {/* <img src={'.././images/Sparrow_1.png'} alt='logo' /> */}
                         <h3>Moneger</h3>
                     </div>
                     <div className="menuIcon" onClick={handleClick}>

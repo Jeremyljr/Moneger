@@ -18,7 +18,10 @@
     display: flex;
     justify-content: flex-start;
     padding: 100px;
-    
+}
+
+.hello {
+    height: 50px;
 }
 
 @media screen and (max-width: 600px) {

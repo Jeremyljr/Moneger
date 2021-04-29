@@ -1,0 +1,89 @@
+.hero2 {
+    height: 200vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.bgWrapper{ 
+    content: "";
+    position: absolute;
+    width: 300%;
+    height: 200%;
+    background: #566976;
+    transform: rotate(-5deg);
+    z-index: 1;
+}
+
+.container {
+    padding-top: 30vh;
+    width:100vw;
+    position: absolute;
+    z-index: 100;
+}
+
+.keyFeatures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: space-between;
+}
+
+.keyFeatures >h3{
+    font-size:59px;
+    color: var(--text);
+    margin-bottom: var(--margins);
+}
+
+.keyFeatures >p{
+    font-size:16px;
+    color: var(--text);
+    /* margin: var(--margins);  */
+    max-width: 30vw;
+    text-align: center;
+}
+
+.featureLogo{
+    height:100px;
+    width:130px;
+}
+
+.allFeatures {
+    display: flex;
+    /* justify-content: center; */
+    margin: 4vw 15%;
+}
+
+.featureLists, .preview{
+    width: 50%;
+}
+
+.featureLists {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.featureTitle {
+    font-size: 28px;
+    color: var(--text);
+    margin-bottom: var(--margins);
+}
+
+.featureCaption {
+    font-size:16px;
+    color: var(--text);
+}
+
+.features {
+    display: flex;
+    transform: scale(0.9);
+    padding:20px;
+    border-radius: 20px;
+}
+
+.features:hover {
+    transition: all 0.3s ease-out;
+    background: #ACBAC3;
+    cursor:pointer;
+}
