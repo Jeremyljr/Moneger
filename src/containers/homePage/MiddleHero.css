@@ -43,11 +43,6 @@
     text-align: center;
 }
 
-.featureLogo{
-    height:100px;
-    width:130px;
-}
-
 .allFeatures {
     display: flex;
     /* justify-content: center; */
@@ -80,10 +75,24 @@
     transform: scale(0.9);
     padding:20px;
     border-radius: 20px;
+    /* justify-content: flex-start; */
 }
 
 .features:hover {
     transition: all 0.3s ease-out;
     background: #ACBAC3;
     cursor:pointer;
+}
+
+.featureLogo{
+    height:8vw;
+    width:8vw;
+    min-width: 30%;
+}
+
+.featureText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width:70%;
 }
