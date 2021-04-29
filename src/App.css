@@ -17,3 +17,21 @@ body {
   --hover: #129AA6;
   --margins: 2vw; 
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px rgb(179, 179, 179); */
+  border-radius: 0px;
+  background-color: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #24323b;
+  border-radius: 0px;
+}
