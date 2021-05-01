@@ -1,0 +1,38 @@
+.formLogins{
+    background:var(--text);
+    padding: 4vh 8vw;
+    text-align: flex-start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    max-height: 60vh;
+    min-width: 40vw;
+    /* box-shadow; */
+}
+
+.formLogins > h3 {
+    font-size: 59px;
+    padding-bottom: 3vh;
+    font-weight: normal;
+}
+
+.formLogin {
+    padding-bottom: 2vh;
+}
+
+.checkers {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.formInputsPass{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+}
+
+.remember {
+    padding: 0 0.5vw;
+}
