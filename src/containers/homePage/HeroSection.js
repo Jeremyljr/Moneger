@@ -4,6 +4,7 @@ import './HeroSection.css';
 
 import { Canvas, useFrame } from "react-three-fiber"; 
 import { useSpring, a} from 'react-spring/three'
+import Navbar from './Navbar';
 
 const Box = ( {position, args}) => {
     const mesh = useRef(null)

@@ -8,7 +8,7 @@ function login() {
             <div className="registerContainer">
                 <form className="formLogins">
                     <h3> Login</h3>
-                    <div className="formInputs">
+                    <div className="formInputsUsername">
                         <label id='username' htmlFor="username" ClassName="formlabel">Username</label>
                         <input type="text" name="username" className="formInput" placeholder="Username"/>
                     </div>

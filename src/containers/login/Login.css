@@ -13,6 +13,14 @@
     /* box-shadow; */
 }
 
+.formInputsUsername{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    padding-bottom: 3vh;
+}
+
 .formLogins > h3 {
     font-size: 59px;
     padding-bottom: 3vh;
@@ -38,4 +46,12 @@
 
 .remember {
     padding: 0 0.5vw;
+}
+
+@media screen and (max-width: 760px) {
+    .formLogins{
+        max-width: 70vw;
+        max-height: 60vh;
+        font-size: 0.7em;
+    }
 }
