@@ -87,11 +87,11 @@
     cursor:pointer;
 }
 
-.featureLogo{
+/* .featureLogo{
     height:8vw;
     width:8vw;
     min-width: 30%;
-}
+} */
 
 .featureText {
     display: flex;
@@ -111,6 +111,11 @@
     .featureLists{
         width: 100vw;
     }
+
+    .features{
+        background: #ACBAC3;
+    }
+
 }
 
 @media screen and (max-width:750px) {
@@ -124,5 +129,14 @@
 
     .featureLists{
         width: 100vw;
+    }
+    .allFeatures{
+        min-width: 80vw;
+        margin: 0;
+    }
+
+    .features{
+        padding-bottom: 20px;
+        background: #ACBAC3;
     }
 }

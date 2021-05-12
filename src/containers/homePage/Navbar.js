@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import { Button } from '../../components/Buttons';
 import './Navbars.css';
+import logo from '../../images/sparrow.png';
 
 function Navbar() {
 
@@ -39,7 +40,7 @@ function Navbar() {
                         className="img"
                         /> */}
                     <div className="title" onClick={closeMobileMenu}>
-                        <img className="sparrow" src='https://spshurl.herokuapp.com/static/logo/Sparrow%20%28Logo%2C%20Dark%2C%20Trans%29.png' alt='logo' />
+                        <img className="sparrow" src={logo} alt="Logo" />
                         {/* <img src={'.././images/Sparrow_1.png'} alt='logo' /> */}
                         <h3>Moneger</h3>
                     </div>
