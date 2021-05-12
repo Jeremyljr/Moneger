@@ -9,7 +9,7 @@ export const Button = ({children, type, onClick, buttonStyle}) => {
     //will default to button
 
     return (
-        <Link to='/sign-up' className='btnMobile'>
+        <Link to='/signup' className='btnMobile'>
             <button className={`btn ${checkButtonStyle}`} onClick={onClick} type={type}>
                 {children}
             </button>

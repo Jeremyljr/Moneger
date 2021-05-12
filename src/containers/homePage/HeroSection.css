@@ -8,7 +8,7 @@
 
 .heroLeft{
     color: var(--text);
-    max-width: 590px;
+    max-width: 50vw;
     height: 400px;
     /* background-color: turquoise; */
     margin-left: 16vw;
@@ -28,6 +28,7 @@
 canvas {
     height: auto !important;
     animation: transitionInCan 2s; 
+    width: 50vw;
 }
 
 @keyframes transitionIn {
@@ -50,4 +51,28 @@ canvas {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+@media screen and (max-width:1250px) {
+    .heroLeft{
+        position: absolute;
+        z-index: 100;
+        min-width: 60vw;
+    }
+    .heroLeft > h3 {
+        font-size: 60px;
+    }
+
+}
+@media screen and (max-width:750px) {
+    .heroLeft{
+        position: absolute;
+        z-index: 100;
+        min-width: 80vw;
+    }
+    .heroLeft > h3 {
+        font-size: 50px;
+        
+    }
+
 }
