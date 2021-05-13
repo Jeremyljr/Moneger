@@ -31,19 +31,13 @@ function Navbar() {
 
     return (
         <>
+            <div className="title" onClick={closeMobileMenu}>
+                <img className="sparrow" src={logo} alt="Logo" />
+                <h3>Moneger</h3>
+            </div>
             <nav className="navbar">
                 <div className="navbarContainer">
-                    {/* <Link to="/" className="navbarLogo">
 
-                    </Link> */}
-                    {/* <img src="../../../public/images/Sparrow (Logo,Trans).png" alt="logo" 
-                        className="img"
-                        /> */}
-                    <div className="title" onClick={closeMobileMenu}>
-                        <img className="sparrow" src={logo} alt="Logo" />
-                        {/* <img src={'.././images/Sparrow_1.png'} alt='logo' /> */}
-                        <h3>Moneger</h3>
-                    </div>
                     <div className="menuIcon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
@@ -66,7 +60,6 @@ function Navbar() {
                         {/* {button && <Button buttonStyle='btnOutline'>TRY</Button>} */}
                     </ul>
                     {/* && means if x is true  */}
-
                 </div>
             </nav>
         </>

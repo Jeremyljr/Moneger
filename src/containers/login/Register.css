@@ -58,14 +58,13 @@ input {
     .form{
         max-width: 70vw;
         max-height: 80vh;
-        font-size: 0.7em;
     }
     .form > h3 {
         font-size: 50px
     }
 
     .formInputs{
-        height: 12vh;
+        height: 9vh;
     }
     .registerContainer{
         height: 105vh;
