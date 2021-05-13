@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Moneger/static/css/main.a6c52069.chunk.css",
-    "main.js": "/Moneger/static/js/main.703b370a.chunk.js",
-    "main.js.map": "/Moneger/static/js/main.703b370a.chunk.js.map",
+    "main.css": "/Moneger/static/css/main.a929485d.chunk.css",
+    "main.js": "/Moneger/static/js/main.4ad046c5.chunk.js",
+    "main.js.map": "/Moneger/static/js/main.4ad046c5.chunk.js.map",
     "runtime-main.js": "/Moneger/static/js/runtime-main.60c43b74.js",
     "runtime-main.js.map": "/Moneger/static/js/runtime-main.60c43b74.js.map",
     "static/js/2.7a0e32d1.chunk.js": "/Moneger/static/js/2.7a0e32d1.chunk.js",
     "static/js/2.7a0e32d1.chunk.js.map": "/Moneger/static/js/2.7a0e32d1.chunk.js.map",
     "index.html": "/Moneger/index.html",
-    "static/css/main.a6c52069.chunk.css.map": "/Moneger/static/css/main.a6c52069.chunk.css.map",
+    "static/css/main.a929485d.chunk.css.map": "/Moneger/static/css/main.a929485d.chunk.css.map",
     "static/js/2.7a0e32d1.chunk.js.LICENSE.txt": "/Moneger/static/js/2.7a0e32d1.chunk.js.LICENSE.txt",
     "static/media/1.d8fdcdee.png": "/Moneger/static/media/1.d8fdcdee.png",
     "static/media/2.285b0b2f.png": "/Moneger/static/media/2.285b0b2f.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.60c43b74.js",
     "static/js/2.7a0e32d1.chunk.js",
-    "static/css/main.a6c52069.chunk.css",
-    "static/js/main.703b370a.chunk.js"
+    "static/css/main.a929485d.chunk.css",
+    "static/js/main.4ad046c5.chunk.js"
   ]
 }
